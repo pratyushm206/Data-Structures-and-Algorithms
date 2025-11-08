@@ -1,0 +1,91 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "Fibonacci",
+            "projectName": "Recursion_1828e366"
+        },
+        {
+            "type": "java",
+            "name": "NthTerm",
+            "request": "launch",
+            "mainClass": "NthTerm",
+            "projectName": "Recursion_1828e366"
+        },
+        {
+            "type": "java",
+            "name": "CountingAndReverse",
+            "request": "launch",
+            "mainClass": "CountingAndReverse",
+            "projectName": "Recursion_1828e366"
+        },
+        {
+            "type": "java",
+            "name": "countingAndreverse",
+            "request": "launch",
+            "mainClass": "countingAndreverse",
+            "projectName": "Recursion_1828e366"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Array",
+            "request": "launch",
+            "mainClass": "Array",
+            "projectName": "Recursion_1828e366"
+        },
+        {
+            "type": "java",
+            "name": "BacktrackRecursion",
+            "request": "launch",
+            "mainClass": "BacktrackRecursion",
+            "projectName": "Recursion_1828e366"
+        },
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "Recursion_1828e366"
+        },
+        {
+            "type": "java",
+            "name": "MultipleRecursion",
+            "request": "launch",
+            "mainClass": "MultipleRecursion",
+            "projectName": "Recursion_1828e366"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "Palindrome",
+            "projectName": "Recursion_1828e366"
+        },
+        {
+            "type": "java",
+            "name": "Recursion",
+            "request": "launch",
+            "mainClass": "Recursion",
+            "projectName": "Recursion_1828e366"
+        },
+        {
+            "type": "java",
+            "name": "Recursion3",
+            "request": "launch",
+            "mainClass": "Recursion3",
+            "projectName": "Recursion_1828e366"
+        }
+    ]
+}
