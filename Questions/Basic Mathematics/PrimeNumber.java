@@ -1,18 +1,27 @@
+import java.util.*;
 public class PrimeNumber {
+
     public static void main(String[] args) {
-        int n = 1901;
-
-        if (n <= 1) {
-            System.out.println("Not a prime number");
-            return;
-        }
-
+        System.out.println("Enter the number n");
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        boolean[] primes = new boolean[n+1];
+        isPrime(n, primes);
+        sc.close();;
+    }
+    public static void isPrime(int n, boolean[] primes) {
         for(int i = 2; i*i <= n; i++) {
-            if ( n % i == 0) {
-                System.out.println("Not a prime number");
-                return ;
+            if (! primes[i]) {
+                for(int j = i*2; j<= n; j+=i){
+                    primes[j] = true;
+                }
             }
         }
-        System.out.println("Prime number ");
+        for(int i = 2; i<=n; i++) {
+            if (! primes[i]) {
+                System.out.print(i+" ");
+            }
+        }
     }
 }
+// Complexity is n*log(log n)
